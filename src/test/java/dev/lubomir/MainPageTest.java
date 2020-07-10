@@ -5,7 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertTrue;
 
-public class MainPageTest extends TestBase{
+public class
+MainPageTest extends TestBase{
 
   @Test
   public void checkHeader(){

@@ -1,5 +1,6 @@
 package dev.lubomir;
 
+import dev.lubomir.util.Constants;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -10,6 +11,7 @@ public class TestBase {
 
   ChromeDriver driver;
   String url = "https://lubomir.dev";
+  String googleUrl = Constants.SERVER_URL;
 
   @BeforeMethod
     public void setup() {
@@ -18,7 +20,7 @@ public class TestBase {
 
     driver = new ChromeDriver();
     driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-    driver.get(url);
+    driver.get(googleUrl);
   }
 
   @AfterMethod
