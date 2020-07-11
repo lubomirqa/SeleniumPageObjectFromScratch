@@ -9,12 +9,11 @@ public class TestBase {
   protected final ApplicationManager applicationManager = new ApplicationManager();
 
   @BeforeMethod
-    public void setup() {
-    applicationManager.init();
+  public void setup() { applicationManager.init();
   }
 
   @AfterMethod
-    public void teardown() {
+  public void teardown() {
     applicationManager.stop();
   }
 }
