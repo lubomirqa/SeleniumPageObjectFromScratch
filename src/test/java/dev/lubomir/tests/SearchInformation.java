@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 public class SearchInformation extends TestBase{
@@ -34,6 +35,24 @@ public class SearchInformation extends TestBase{
     List<WebElement> results = applicationManager.driver.findElements(By.xpath("//h3[@class=\"LC20lb DKV0Md\"]"));
     System.out.println("First link is " + results.get(0).getText());
     results.get(0).click();
+  }
+
+  @Test
+  public void compareResults(){
+    SearchPage searchPage = new SearchPage(applicationManager.driver);
+    boolean result = searchPage.compareResults("JohnyDepp", "Stallone");
+    assertTrue(result,"Results are not equal");
+  }
+
+  @Test
+  public void compareResultsOnTwoPages(){
+    int index = 2;
+    SearchPage searchPage = new SearchPage(applicationManager.driver);
+    int page1Results = searchPage.amountOfLinksOnAPage("Epam").size();
+    searchPage.clickPage(index);
+    int page2Results = searchPage.amountOfLinksOnAPage().size();
+    assertEquals(page1Results, page2Results, "Amount of result if not equal");
+    System.out.println("Amount of results on 1 and " + index + " pages are equal");
   }
 
 }
