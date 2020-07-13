@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c81a759-1031-4b2d-a067-0beaccfd0c69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/lubomir/page/PicturesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/lubomir/page/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/lubomir/page/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchInformation.java" afterDir="false" />
     </list>
@@ -36,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/appmanager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            <state relative-caret-position="304">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/page/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="354">
               <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,14 +81,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/page/PicturesPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/page/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="336">
+              <caret line="64" column="3" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#244#245#0" expanded="true" />
                 <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#1826#1827#0" expanded="true" />
+                <element signature="e#1883#1884#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchInformation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="49" column="64" lean-forward="true" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+            <state relative-caret-position="300">
+              <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,15 +130,6 @@
               <folding>
                 <element signature="e#2912#2913#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/util/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -171,12 +180,13 @@
         <option value="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/MainPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/dev/lubomir/appmanager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchInformation.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/lubomir/page/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchInformation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/lubomir/page/PicturesPage.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="825" />
@@ -313,25 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchInformation.compareResultsOnTwoPages">
-    <configuration name="SearchInformation.checkNumberOfResults" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FrameworkFromScratch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.lubomir.appmanager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.lubomir" />
-      <option name="MAIN_CLASS_NAME" value="dev.lubomir.tests.SearchInformation" />
-      <option name="METHOD_NAME" value="checkNumberOfResults" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SearchInformation.searchPictures">
     <configuration name="SearchInformation.clickFirstLink" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FrameworkFromScratch" />
       <extension name="coverage">
@@ -404,13 +396,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchInformation.searchPictures" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FrameworkFromScratch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.lubomir.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.lubomir.tests" />
+      <option name="MAIN_CLASS_NAME" value="dev.lubomir.tests.SearchInformation" />
+      <option name="METHOD_NAME" value="searchPictures" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchInformation.searchPictures" />
         <item itemvalue="TestNG.SearchInformation.compareResultsOnTwoPages" />
         <item itemvalue="TestNG.SearchInformation.compareResults" />
         <item itemvalue="TestNG.SearchInformation.clickFirstLink" />
         <item itemvalue="TestNG.SearchInformation.findSearchButton" />
-        <item itemvalue="TestNG.SearchInformation.checkNumberOfResults" />
       </list>
     </recent_temporary>
   </component>
@@ -446,19 +456,24 @@
       <option name="project" value="LOCAL" />
       <updated>1594495796331</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added few page methods and tests">
+      <created>1594580060816</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594580060816</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added few page methods and tests">
+      <created>1594580076865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594580076865</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchInformation_compareResults - 2020.07.12 at 21h 01m 03s.xml">
-      <configuration name="SearchInformation.compareResults" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchInformation_compareResults - 2020.07.12 at 21h 03m 18s.xml">
-      <configuration name="SearchInformation.compareResults" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchInformation_compareResultsOnTwoPages - 2020.07.12 at 21h 11m 47s.xml">
-      <configuration name="SearchInformation.compareResultsOnTwoPages" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SearchInformation_compareResultsOnTwoPages - 2020.07.12 at 21h 12m 21s.xml">
       <configuration name="SearchInformation.compareResultsOnTwoPages" configurationId="TestNG" />
     </history-entry>
@@ -480,6 +495,15 @@
     <history-entry file="SearchInformation_compareResultsOnTwoPages - 2020.07.12 at 21h 23m 09s.xml">
       <configuration name="SearchInformation.compareResultsOnTwoPages" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SearchInformation_searchPictures - 2020.07.13 at 23h 48m 50s.xml">
+      <configuration name="SearchInformation.searchPictures" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchInformation_searchPictures - 2020.07.13 at 23h 49m 02s.xml">
+      <configuration name="SearchInformation.searchPictures" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchInformation_searchPictures - 2020.07.13 at 23h 49m 36s.xml">
+      <configuration name="SearchInformation.searchPictures" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -492,9 +516,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49789914" visible="true" weight="0.3018598" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49789914" visible="true" weight="0.3018598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -503,14 +526,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.5021008" side_tool="true" weight="0.25679544" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32394367" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32394367" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32957748" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32957748" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32957748" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32957748" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32957748" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -526,14 +549,16 @@
     <MESSAGE value="TestBase, MainPageTest classes added; TestNG and Maven set up" />
     <MESSAGE value="PagePage added, SearchPage added, Constants added, SearchInformation added" />
     <MESSAGE value="added ApplicationManager; divided into packages; added delegation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ApplicationManager; divided into packages; added delegation" />
+    <MESSAGE value="added few testing methods" />
+    <MESSAGE value="added few page methods and tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added few page methods and tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchInformation.java</url>
-          <line>40</line>
+          <line>41</line>
           <properties class="dev.lubomir.tests.SearchInformation" method="compareResults">
             <option name="EMULATED" value="true" />
           </properties>
@@ -571,24 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/page/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/util/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -598,23 +605,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/MainPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0-sources.jar!/org/testng/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -637,20 +627,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/appmanager/ApplicationManager.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/MainPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/page/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchInformation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="49" column="64" lean-forward="true" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+        <state relative-caret-position="300">
+          <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -659,12 +684,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/page/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="336">
+          <caret line="64" column="3" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#244#245#0" expanded="true" />
             <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/page/PicturesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
           </folding>
         </state>
       </provider>

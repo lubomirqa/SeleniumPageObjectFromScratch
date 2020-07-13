@@ -60,4 +60,8 @@ public class SearchPage extends BasePage{
     pages.get(index).click();
   }
 
+  public void clickPictures(){
+    driver.findElement(By.xpath("//a[@class=\"q qs\"]")).click();
+  }
+
 }

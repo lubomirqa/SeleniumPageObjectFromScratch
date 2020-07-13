@@ -1,5 +1,6 @@
 package dev.lubomir.tests;
 
+import dev.lubomir.page.PicturesPage;
 import dev.lubomir.page.SearchPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -53,6 +54,15 @@ public class SearchInformation extends TestBase{
     int page2Results = searchPage.amountOfLinksOnAPage().size();
     assertEquals(page1Results, page2Results, "Amount of result if not equal");
     System.out.println("Amount of results on 1 and " + index + " pages are equal");
+  }
+
+  @Test
+  public void searchPictures(){
+    SearchPage searchPage = new SearchPage(applicationManager.driver);
+    PicturesPage picturesPage = new PicturesPage(applicationManager.driver);
+    searchPage.inputAndSearch("Cats");
+    searchPage.clickPictures();
+    System.out.println("Width of the picture is " + picturesPage.getPictureWidth(2));
   }
 
 }
