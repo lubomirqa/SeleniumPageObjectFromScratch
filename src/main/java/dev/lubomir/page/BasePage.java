@@ -22,6 +22,6 @@ public abstract class BasePage {
   }
 
   public void loadPage(){
-    driver.get(Constants.SERVER_URL + pageUrl);
+    driver.get(Constants.GOOGLE_URL + pageUrl);
   }
 }

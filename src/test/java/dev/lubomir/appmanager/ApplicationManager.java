@@ -10,8 +10,6 @@ import java.util.concurrent.TimeUnit;
 public class ApplicationManager {
   public ChromeDriver driver;
   protected Logger log;
-  String url = "https://lubomir.dev";
-  String googleUrl = Constants.SERVER_URL;
 
   public void init(ITestContext ctx) {
     String testName = ctx.getCurrentXmlTest().getName();
@@ -21,7 +19,7 @@ public class ApplicationManager {
 
     driver = new ChromeDriver();
     driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-    driver.get(googleUrl); //change url if needed
+    driver.get(Constants.GOOGLE_URL); //change url if needed
   }
 
   public void stop() {
