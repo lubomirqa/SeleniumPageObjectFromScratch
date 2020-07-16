@@ -28,3 +28,7 @@ Building Selenium test framework using Page Object pattern, Maven, TestNG
 2. Add class constructor, loadPage method, basic parameters
 3. Further, create ‘%Another%Page’ class, extend it from BasePage, override the loadPage method, add constructor, add page controls and methods
 4. Your new tests should create a correct page instance using basic contructor and therefore use the appropriate page methods
+
+## Custom dependencies
+* [Log4j](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j/2.13.3) - improved logging
+
