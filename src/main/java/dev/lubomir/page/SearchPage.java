@@ -62,7 +62,7 @@ public class SearchPage extends BasePage{
   }
 
   public void clickPictures(){
-    WaitUtils.waitForElement(driver, "sdas");
+    //WaitUtils.waitForElement(driver, "sdas");
     driver.findElement(By.xpath("//a[@class=\"q qs\"]")).click();
   }
 

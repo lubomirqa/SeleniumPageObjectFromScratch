@@ -7,8 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import java.util.List;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.*;
 
 public class SearchInformation extends TestBase{
 
@@ -39,7 +38,7 @@ public class SearchInformation extends TestBase{
   public void compareResults(){
     SearchPage searchPage = new SearchPage(applicationManager.driver);
     boolean result = searchPage.compareResults("JohnyDepp", "Stallone");
-    assertTrue(result,"Results are not equal");
+    assertFalse(result,"Results are equal");
   }
 
   @Test
