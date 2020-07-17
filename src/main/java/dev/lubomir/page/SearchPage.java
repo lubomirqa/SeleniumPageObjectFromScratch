@@ -1,5 +1,6 @@
 package dev.lubomir.page;
 
+import dev.lubomir.util.WaitUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -61,6 +62,7 @@ public class SearchPage extends BasePage{
   }
 
   public void clickPictures(){
+    WaitUtils.waitForElement(driver, "sdas");
     driver.findElement(By.xpath("//a[@class=\"q qs\"]")).click();
   }
 
