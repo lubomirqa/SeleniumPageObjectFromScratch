@@ -5,10 +5,8 @@ import manager.DriverManagerFactory;
 import manager.DriverType;
 import dev.lubomir.util.Constants;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
+
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
@@ -16,8 +14,8 @@ public class TestBase {
   public WebDriver driver;
   DriverManager driverManager;
 
+  @Parameters({"browserName"})
   @BeforeMethod
-  @Parameters("browserName")
   public void setUp(@Optional String browserName){
     getLocalDriver(browserName);
     driver.manage().window().maximize();
@@ -25,6 +23,7 @@ public class TestBase {
   }
 
   public WebDriver getLocalDriver(String browserName){
+    browserName = "Chrome"; //for single test purposes
     if(browserName.equalsIgnoreCase("Chrome")){
       driverManager = DriverManagerFactory.getManager(DriverType.CHROME);
       driver = driverManager.getDriver();

@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c81a759-1031-4b2d-a067-0beaccfd0c69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/ChromeDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/DriverManagerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/DriverType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/runner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/lubomir/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/lubomir/page/PicturesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/PicturesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/lubomir/page/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/lubomir/util/BrowserDriverFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dev/lubomir/appmanager/ApplicationManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/TestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/lubomir/page/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/lubomir/page/SearchPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/lubomir/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/lubomir/util/Constants.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="27" column="73" lean-forward="true" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+            <state relative-caret-position="221">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,36 +36,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/runner.xml">
+        <entry file="file://$PROJECT_DIR$/src/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/manager/ChromeDriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/page/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -99,12 +59,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/page/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="180">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1814#1815#0" expanded="true" />
                 <element signature="e#1884#1885#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/manager/DriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/manager/DriverManagerFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -130,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchInformation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="234">
+              <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,11 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/MainPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -193,14 +169,15 @@
         <option value="$PROJECT_DIR$/src/main/java/dev/lubomir/manager/DriverManagerFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/lubomir/manager/DriverManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/lubomir/appmanager/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchInformation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/MainPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/manager/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/manager/ChromeDriverManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/page/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/runner.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/manager/ChromeDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/MainPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/manager/DriverManagerFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/page/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchInformation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/TestBase.java" />
       </list>
     </option>
   </component>
@@ -211,11 +188,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="180" />
-    <option name="y" value="126" />
-    <option name="width" value="1080" />
-    <option name="height" value="619" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -223,8 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,57 +237,14 @@
               <item name="lubomir.dev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrameworkFromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lubomir.dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrameworkFromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lubomir.dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrameworkFromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lubomir.dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrameworkFromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lubomir.dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrameworkFromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lubomir.dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrameworkFromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lubomir.dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,6 +259,9 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="dev.lubomir" />
@@ -348,25 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/mac/SeleniumPajeObjectFromScratch/lubomir.dev/src/main/resources/runner.xml">
-    <configuration name="SearchInformation.checkNumberOfResults" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FrameworkFromScratch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.lubomir.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.lubomir.tests" />
-      <option name="MAIN_CLASS_NAME" value="dev.lubomir.tests.SearchInformation" />
-      <option name="METHOD_NAME" value="checkNumberOfResults" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SearchInformation.searchPictures">
     <configuration name="SearchInformation.clickFirstLink" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FrameworkFromScratch" />
       <extension name="coverage">
@@ -378,24 +294,6 @@
       <option name="PACKAGE_NAME" value="dev.lubomir.tests" />
       <option name="MAIN_CLASS_NAME" value="dev.lubomir.tests.SearchInformation" />
       <option name="METHOD_NAME" value="clickFirstLink" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchInformation.compareResults" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FrameworkFromScratch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="manager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.lubomir.tests" />
-      <option name="MAIN_CLASS_NAME" value="dev.lubomir.tests.SearchInformation" />
-      <option name="METHOD_NAME" value="compareResults" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -421,9 +319,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/mac/SeleniumPajeObjectFromScratch/lubomir.dev/src/main/resources/runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchInformation.searchPictures" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FrameworkFromScratch" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/runner.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.lubomir.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.lubomir.tests" />
+      <option name="MAIN_CLASS_NAME" value="dev.lubomir.tests.SearchInformation" />
+      <option name="METHOD_NAME" value="searchPictures" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/mac/SeleniumPajeObjectFromScratch/lubomir.dev/src/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FrameworkFromScratch" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/mac/SeleniumPajeObjectFromScratch/lubomir.dev/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FrameworkFromScratch" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -433,11 +359,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/mac/SeleniumPajeObjectFromScratch/lubomir.dev/src/main/resources/runner.xml" />
-        <item itemvalue="TestNG.SearchInformation.clickFirstLink" />
-        <item itemvalue="TestNG.SearchInformation.checkNumberOfResults" />
-        <item itemvalue="TestNG.SearchInformation.compareResults" />
+        <item itemvalue="TestNG.SearchInformation.searchPictures" />
+        <item itemvalue="TestNG./Users/mac/SeleniumPajeObjectFromScratch/lubomir.dev/testng.xml" />
+        <item itemvalue="TestNG./Users/mac/SeleniumPajeObjectFromScratch/lubomir.dev/src/testng.xml" />
         <item itemvalue="TestNG.SearchInformation.compareResultsOnTwoPages" />
+        <item itemvalue="TestNG.SearchInformation.clickFirstLink" />
       </list>
     </recent_temporary>
   </component>
@@ -522,39 +448,46 @@
       <option name="project" value="LOCAL" />
       <updated>1595020157939</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="implemented Browser Factory pattern">
+      <created>1595024374042</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1595024374042</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchInformation_searchPictures - 2020.07.13 at 23h 49m 02s.xml">
-      <configuration name="SearchInformation.searchPictures" configurationId="TestNG" />
+    <history-entry file="SearchInformation_clickFirstLink - 2020.07.18 at 19h 21m 51s.xml">
+      <configuration name="SearchInformation.clickFirstLink" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchInformation_searchPictures - 2020.07.13 at 23h 49m 36s.xml">
-      <configuration name="SearchInformation.searchPictures" configurationId="TestNG" />
+    <history-entry file="SearchInformation_clickFirstLink - 2020.07.18 at 19h 21m 58s.xml">
+      <configuration name="SearchInformation.clickFirstLink" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchInformation_searchPictures - 2020.07.18 at 00h 05m 01s.xml">
-      <configuration name="SearchInformation.searchPictures" configurationId="TestNG" />
+    <history-entry file="SearchInformation_clickFirstLink - 2020.07.18 at 19h 23m 15s.xml">
+      <configuration name="SearchInformation.clickFirstLink" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchInformation_compareResultsOnTwoPages - 2020.07.18 at 00h 07m 55s.xml">
+    <history-entry file="SearchInformation_clickFirstLink - 2020.07.18 at 19h 23m 43s.xml">
+      <configuration name="SearchInformation.clickFirstLink" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchInformation_clickFirstLink - 2020.07.18 at 19h 23m 51s.xml">
+      <configuration name="SearchInformation.clickFirstLink" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchInformation_compareResultsOnTwoPages - 2020.07.18 at 19h 25m 16s.xml">
       <configuration name="SearchInformation.compareResultsOnTwoPages" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchInformation_compareResults - 2020.07.18 at 00h 08m 11s.xml">
-      <configuration name="SearchInformation.compareResults" configurationId="TestNG" />
+    <history-entry file="SearchInformation_compareResultsOnTwoPages - 2020.07.18 at 19h 27m 19s.xml">
+      <configuration name="SearchInformation.compareResultsOnTwoPages" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchInformation_compareResults - 2020.07.18 at 00h 08m 46s.xml">
-      <configuration name="SearchInformation.compareResults" configurationId="TestNG" />
+    <history-entry file="SearchInformation_compareResultsOnTwoPages - 2020.07.18 at 19h 28m 50s.xml">
+      <configuration name="SearchInformation.compareResultsOnTwoPages" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchInformation_checkNumberOfResults - 2020.07.18 at 01h 11m 41s.xml">
-      <configuration name="SearchInformation.checkNumberOfResults" configurationId="TestNG" />
+    <history-entry file="SearchInformation_compareResultsOnTwoPages - 2020.07.18 at 19h 29m 10s.xml">
+      <configuration name="SearchInformation.compareResultsOnTwoPages" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mac_SeleniumPajeObjectFromScratch_lubomir_dev_src_main_resources_runner_xml - 2020.07.18 at 01h 12m 26s.xml">
-      <configuration name="/Users/mac/SeleniumPajeObjectFromScratch/lubomir.dev/src/main/resources/runner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mac_SeleniumPajeObjectFromScratch_lubomir_dev_src_main_resources_runner_xml - 2020.07.18 at 01h 13m 11s.xml">
-      <configuration name="/Users/mac/SeleniumPajeObjectFromScratch/lubomir.dev/src/main/resources/runner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchInformation_clickFirstLink - 2020.07.18 at 01h 15m 44s.xml">
-      <configuration name="SearchInformation.clickFirstLink" configurationId="TestNG" />
+    <history-entry file="_Users_mac_SeleniumPajeObjectFromScratch_lubomir_dev_src_testng_xml - 2020.07.18 at 19h 29m 59s.xml">
+      <configuration name="/Users/mac/SeleniumPajeObjectFromScratch/lubomir.dev/src/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -570,7 +503,7 @@
     <frame x="0" y="23" width="1440" height="825" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49789914" visible="true" weight="0.28040057" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49789914" visible="true" weight="0.28397712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -609,14 +542,15 @@
     <MESSAGE value="updated urls" />
     <MESSAGE value="updated imports" />
     <MESSAGE value="updated BrowserDriverFactory class" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated BrowserDriverFactory class" />
+    <MESSAGE value="implemented Browser Factory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented Browser Factory pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchInformation.java</url>
-          <line>37</line>
+          <line>41</line>
           <properties class="dev.lubomir.tests.SearchInformation" method="compareResults">
             <option name="EMULATED" value="true" />
           </properties>
@@ -711,6 +645,57 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/appmanager/ApplicationManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/manager/FirefoxDriverManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/util/BrowserDriverFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/page/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/manager/ChromeDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/manager/DriverType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/util/WaitUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/MainPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/manager/DriverManagerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -722,37 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/manager/DriverType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/util/WaitUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/page/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,65 +722,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/page/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="180">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
             <element signature="e#1884#1885#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/runner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/SearchInformation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="234">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dev/lubomir/tests/MainPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/manager/ChromeDriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/lubomir/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="27" column="73" lean-forward="true" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+        <state relative-caret-position="221">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

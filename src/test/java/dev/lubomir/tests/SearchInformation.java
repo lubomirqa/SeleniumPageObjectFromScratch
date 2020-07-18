@@ -1,5 +1,6 @@
 package dev.lubomir.tests;
 
+import org.testng.annotations.Parameters;
 import page.PicturesPage;
 import page.SearchPage;
 import org.openqa.selenium.By;
@@ -7,6 +8,9 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import java.util.List;
 import base.*;
+
+import javax.xml.bind.annotation.XmlValue;
+
 import static org.testng.Assert.*;
 
 public class SearchInformation extends TestBase{
