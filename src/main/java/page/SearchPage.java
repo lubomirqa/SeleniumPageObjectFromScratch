@@ -1,15 +1,30 @@
 package page;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import java.util.Arrays;
 import java.util.List;
 
 public class SearchPage extends BasePage{
 
-  public static final String searchInput = "//input[@name=\"q\"]";
-  public static final String linksXp = "//h3[@class=\"LC20lb DKV0Md\"]";
-  public static final String pagesXp = "//table[@class=\"AaVjTc\"]//td";
+  @FindBy(xpath = "//input[@name=\"q\"]")
+  public WebElement searchInput;
+
+  @FindBy(xpath = "//h3[@class=\"LC20lb DKV0Md\"]")
+  public WebElement linksXp;
+
+  @FindBy(className = "gNO89b")
+  public WebElement searchXp;
+
+  @FindBy(id = "result-stats")
+  public WebElement resultsXp;
+
+  @FindBy(xpath = "//a[@class=\"q qs\"]")
+  public WebElement picturesXp;
+
+  @FindBy(xpath = "//table[@class=\"AaVjTc\"]//td")
+  public WebElement pagesXp;
 
 
   @Override
@@ -22,17 +37,17 @@ public class SearchPage extends BasePage{
   }
 
   public void inputAndSearch(String text){
-    driver.findElement(By.xpath(searchInput)).sendKeys(text);
-    driver.findElement(By.className("gNO89b")).click();
+    searchInput.sendKeys(text);
+    searchXp.click();
   }
 
   public int getNumberOfResults(String text){
     inputAndSearch(text);
-    String results = driver.findElement(By.id("result-stats")).getText();
+    String results = resultsXp.getText();
     System.out.println(results);
-    results = results.substring(0, results.indexOf("(") + 1);
-    results = results.trim();
-    results = results.replaceAll("\\D+","");
+    results = results.substring(0, results.indexOf("(") + 1)
+            .trim()
+            .replaceAll("\\D+","");
     System.out.println(results);
     return Integer.parseInt(results);
   }
@@ -46,22 +61,19 @@ public class SearchPage extends BasePage{
 
   public List<WebElement> amountOfLinksOnAPage(String text){
     inputAndSearch(text);
-    List<WebElement> links = driver.findElements(By.xpath(linksXp));
-    return links;
+    return Arrays.asList(linksXp);
   }
 
   public List<WebElement> amountOfLinksOnAPage(){
-    List<WebElement> links = driver.findElements(By.xpath(linksXp));
-    return links;
+    return Arrays.asList(linksXp);
   }
 
   public void clickPage(int index){
-    List<WebElement> pages = driver.findElements(By.xpath(pagesXp));
+    List<WebElement> pages = Arrays.asList(pagesXp);
     pages.get(index).click();
   }
 
   public void clickPictures(){
-    driver.findElement(By.xpath("//a[@class=\"q qs\"]")).click();
+    picturesXp.click();
   }
-
 }
