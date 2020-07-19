@@ -12,7 +12,7 @@
 
     </test>
 
-    <!--<test name="Firefox Local">
+   <!-- <test name="Firefox Local">
 
         <parameter name="browserName" value="FIREFOX"/>
 

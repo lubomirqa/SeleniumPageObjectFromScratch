@@ -1,5 +1,6 @@
 package page;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -7,6 +8,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class SearchPage extends BasePage{
+
+  public static final String pagesXp = "//table[@class=\"AaVjTc\"]//td";
 
   @FindBy(xpath = "//input[@name=\"q\"]")
   public WebElement searchInput;
@@ -22,9 +25,6 @@ public class SearchPage extends BasePage{
 
   @FindBy(xpath = "//a[@class=\"q qs\"]")
   public WebElement picturesXp;
-
-  @FindBy(xpath = "//table[@class=\"AaVjTc\"]//td")
-  public WebElement pagesXp;
 
 
   @Override
@@ -69,7 +69,7 @@ public class SearchPage extends BasePage{
   }
 
   public void clickPage(int index){
-    List<WebElement> pages = Arrays.asList(pagesXp);
+    List<WebElement> pages = driver.findElements(By.xpath(pagesXp));
     pages.get(index).click();
   }
 

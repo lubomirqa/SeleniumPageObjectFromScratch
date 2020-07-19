@@ -15,7 +15,6 @@ public class ChromeDriverManager extends DriverManager{
               .usingDriverExecutable(new File(System.getProperty("user.dir") + "/src/main/resources/chromedriver"))
               .usingAnyFreePort()
               .build();
-
     }
   }
 

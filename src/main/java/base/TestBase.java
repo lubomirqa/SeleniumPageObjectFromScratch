@@ -23,7 +23,7 @@ public class TestBase {
   }
 
   public WebDriver getLocalDriver(String browserName){
-    browserName = "Chrome"; //for single test purposes
+    //browserName = "Chrome"; //for single test purposes
     if(browserName.equalsIgnoreCase("Chrome")){
       driverManager = DriverManagerFactory.getManager(DriverType.CHROME);
       driver = driverManager.getDriver();
@@ -32,6 +32,9 @@ public class TestBase {
     else if(browserName.equalsIgnoreCase("Firefox")){
       driverManager = DriverManagerFactory.getManager(DriverType.FIREFOX);
       driver = driverManager.getDriver();
+    }
+    else{
+      throw new RuntimeException("No such driver found");
     }
     return driver;
   }
