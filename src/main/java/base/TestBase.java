@@ -6,7 +6,6 @@ import manager.DriverType;
 import dev.lubomir.util.Constants;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
-
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
@@ -27,7 +26,7 @@ public class TestBase {
     if(browserName.equalsIgnoreCase("Chrome")){
       driverManager = DriverManagerFactory.getManager(DriverType.CHROME);
       driver = driverManager.getDriver();
-      driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
     else if(browserName.equalsIgnoreCase("Firefox")){
       driverManager = DriverManagerFactory.getManager(DriverType.FIREFOX);
