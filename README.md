@@ -31,6 +31,9 @@ Building Selenium test framework using Page Object pattern, Maven, TestNG
 
 ## Using Browser Factory pattern
 
+## Useful commands
+`mvn clean test` - runs the test suite, specified in your pom.xlm file. Make sure to add the 'configuration' tag with specific file, having test suite. Can be run via terminal/shell, IDEA terminal, from the Maven IDEA tab.
+
 ## Custom dependencies
 * [Log4j](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j/2.13.3) - improved logging
 
