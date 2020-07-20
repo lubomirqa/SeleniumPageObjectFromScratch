@@ -33,8 +33,8 @@ Building Selenium test framework using Page Object pattern, Maven, TestNG
 
 ## Retry Analyzer
 *General idea is to set a specific amount of retries after the test failures.*
-1. Create RetryAnalyzer class under java/util package, implement IRetryAnalyzer TestNG interface.
-2. Override the retry method with condition, which will return true until the tries maximum amount is reached.
+1. Create `RetryAnalyzer` class under java/util package, implement `IRetryAnalyzer` TestNG interface.
+2. Override the `retry` method with condition, which will return true until the tries maximum amount is reached.
 3. Use `retryAnalyzer = RetryAnalyzer.class` inside the @Test annotation parameters in your test methods.
 
 ## Useful commands
