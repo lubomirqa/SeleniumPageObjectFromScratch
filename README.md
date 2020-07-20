@@ -31,6 +31,12 @@ Building Selenium test framework using Page Object pattern, Maven, TestNG
 
 ## Using Browser Factory pattern
 
+## Retry Analyzer
+*General idea is to set specific amount of retries after the test failures.*
+1. Create RetryAnalyzer class under java/util package, implement IRetryAnalyzer TestNG interface.
+2. Override the retry method with condition, which will return true until the tries maximum amount is reached.
+3. Use `retryAnalyzer = RetryAnalyzer.class` inside the @Test annotation parameters in your test methods.
+
 ## Useful commands
 `mvn clean test` - runs the test suite, specified in your pom.xlm file. Make sure to add the 'configuration' tag with specific file, having test suite. Can be run via terminal/shell, IDEA terminal, from the Maven IDEA tab.
 
