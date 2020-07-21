@@ -1,4 +1,4 @@
-package dev.lubomir.util;
+package utils;
 
 public class Constants {
 

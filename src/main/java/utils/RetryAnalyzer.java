@@ -1,4 +1,4 @@
-package dev.lubomir.util;
+package utils;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
@@ -12,6 +12,7 @@ public class RetryAnalyzer implements IRetryAnalyzer {
   public boolean retry(ITestResult result) {
     if (count < limit) {
       count++;
+      System.out.println("Test " + result.getMethod().getMethodName() + " failed! \n This is retry # " + count);
       return true;
     }
     return false;

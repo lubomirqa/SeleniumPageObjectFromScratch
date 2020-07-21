@@ -1,8 +1,9 @@
 package page;
 
 import org.openqa.selenium.WebDriver;
-import dev.lubomir.util.*;
+import utils.*;
 import org.openqa.selenium.support.PageFactory;
+import utils.Constants;
 
 public abstract class BasePage {
 

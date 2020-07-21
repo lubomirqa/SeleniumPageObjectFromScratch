@@ -1,4 +1,4 @@
-package manager;
+package driver;
 
 import org.openqa.selenium.WebDriver;
 
@@ -10,13 +10,13 @@ public abstract class DriverManager {
   abstract void createDriver();
 
   public void quitDriver(){
-    if(driver != null){
+    if(null != driver){
       stopService();
     }
   }
 
   public WebDriver getDriver(){
-    if(driver == null){
+    if(null == driver){
       startService();
       createDriver();
     }

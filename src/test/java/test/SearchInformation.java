@@ -1,6 +1,6 @@
-package dev.lubomir.tests;
+package test;
 
-import dev.lubomir.util.RetryAnalyzer;
+import utils.RetryAnalyzer;
 import page.PicturesPage;
 import page.SearchPage;
 import org.openqa.selenium.By;
@@ -18,7 +18,7 @@ public class SearchInformation extends TestBase{
 
   public void checkResultsSum(){
     searchPage = new SearchPage(driver);
-    searchPage.inputAndSearch("");
+    searchPage.inputAndSearch("Lub");
   }
 
   public void checkNumberOfResults(){

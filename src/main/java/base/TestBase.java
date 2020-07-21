@@ -1,9 +1,9 @@
 package base;
 
-import manager.DriverManager;
-import manager.DriverManagerFactory;
-import manager.DriverType;
-import dev.lubomir.util.Constants;
+import driver.DriverManager;
+import driver.DriverManagerFactory;
+import driver.DriverType;
+import utils.Constants;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import java.util.concurrent.TimeUnit;
@@ -22,7 +22,7 @@ public class TestBase {
   }
 
   public WebDriver getLocalDriver(String browserName){
-    //browserName = "Chrome"; //for single test purposes
+    browserName = "Chrome"; //for single test purposes
     if(browserName.equalsIgnoreCase("Chrome")){
       driverManager = DriverManagerFactory.getManager(DriverType.CHROME);
       driver = driverManager.getDriver();

@@ -7,7 +7,7 @@
         <parameter name="browserName" value="CHROME"/>
 
         <classes>
-            <class name="dev.lubomir.tests.SearchInformation"/>
+            <class name="test.SearchInformation"/>
         </classes>
 
     </test>
@@ -17,7 +17,7 @@
         <parameter name="browserName" value="FIREFOX"/>
 
         <classes>
-            <class name="dev.lubomir.tests.SearchInformation"/>
+            <class name="SearchInformation"/>
         </classes>
 
     </test>-->

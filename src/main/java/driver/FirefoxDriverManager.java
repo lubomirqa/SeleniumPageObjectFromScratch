@@ -1,4 +1,4 @@
-package manager;
+package driver;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.GeckoDriverService;
@@ -9,7 +9,7 @@ public class FirefoxDriverManager extends DriverManager {
 
   @Override
   void startService() {
-    if(geckoService == null){
+    if(null == geckoService){
       geckoService = new GeckoDriverService.Builder()
               .usingDriverExecutable(new File(System.getProperty("user.dir") + "/src/main/resources/geckodriver"))
               .usingAnyFreePort()
@@ -19,7 +19,7 @@ public class FirefoxDriverManager extends DriverManager {
 
   @Override
   void stopService() {
-    if (geckoService != null && geckoService.isRunning()){
+    if (null != geckoService && geckoService.isRunning()){
       geckoService.stop();
     }
   }
