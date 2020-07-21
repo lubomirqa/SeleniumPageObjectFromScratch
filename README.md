@@ -24,12 +24,18 @@ Building Selenium test framework using Page Object pattern, Maven, TestNG
 3. Create method inside the java class with TestNG @Test annotation and implement the test steps
 
 ## Using Page Object pattern
-1. Create `BasePage` class inside the newly created ‘page’ package, under the `java/%your domain%` package
-2. Add class constructor, loadPage method, basic parameters
-3. Further, create ‘%Another%Page’ class, extend it from BasePage, override the loadPage method, add constructor, add page controls and methods
+1. Create `BasePage` class inside the newly created `page` package, under the `java/%your domain%` package
+2. Add class constructor, `loadPage` method, basic parameters
+3. Further, create `%Another%Page` class, extend it from `BasePage`, override the loadPage method, add constructor, add page controls and methods
 4. Your new tests should create a correct page instance using basic contructor and therefore use the appropriate page methods
 
 ## Using Browser Factory pattern
+
+## Retry Analyzer
+*General idea is to set a specific amount of retries after the test failures.*
+1. Create `RetryAnalyzer` class under java/util package, implement `IRetryAnalyzer` TestNG interface.
+2. Override the `retry` method with condition, which will return true until the tries maximum amount is reached.
+3. Use `retryAnalyzer = RetryAnalyzer.class` inside the @Test annotation parameters in your test methods.
 
 ## Useful commands
 `mvn clean test` - runs the test suite, specified in your pom.xlm file. Make sure to add the 'configuration' tag with specific file, having test suite. Can be run via terminal/shell, IDEA terminal, from the Maven IDEA tab.
