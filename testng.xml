@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="FramerowkFromScratchSuite" parallel="tests">
+<suite name="FrameworkFromScratchSuite" parallel="tests">
     <test name="Chrome Local">
 
         <parameter name="browserName" value="CHROME"/>
