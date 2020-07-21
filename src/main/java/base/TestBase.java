@@ -10,8 +10,8 @@ import java.util.concurrent.TimeUnit;
 
 public class TestBase {
 
-  public WebDriver driver;
-  DriverManager driverManager;
+  protected WebDriver driver;
+  protected DriverManager driverManager;
 
   @Parameters({"browserName"})
   @BeforeMethod
@@ -25,16 +25,15 @@ public class TestBase {
     browserName = "Chrome"; //for single test purposes
     if(browserName.equalsIgnoreCase("Chrome")){
       driverManager = DriverManagerFactory.getManager(DriverType.CHROME);
-      driver = driverManager.getDriver();
-      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
     else if(browserName.equalsIgnoreCase("Firefox")){
       driverManager = DriverManagerFactory.getManager(DriverType.FIREFOX);
-      driver = driverManager.getDriver();
     }
     else{
       throw new RuntimeException("No such driver found");
     }
+    driver = driverManager.getDriver();
+    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     return driver;
   }
 
