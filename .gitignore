@@ -5,3 +5,4 @@ target
 downloads
 .log
 workspace.xml
+allure-results
