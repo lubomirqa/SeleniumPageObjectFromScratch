@@ -37,6 +37,11 @@ Building Selenium test framework using Page Object pattern, Maven, TestNG
 2. Override the `retry` method with condition, which will return true until the tries maximum amount is reached.
 3. Use `retryAnalyzer = RetryAnalyzer.class` inside the @Test annotation parameters in your test methods.
 
+## Allure
+1. Add [Allure TestNG](https://mvnrepository.com/artifact/io.qameta.allure/allure-testng) dependency to `pom.xml`.
+2. Add Allure properties to tests, e.g. Severity, Description.
+3. After test run being finished, copy `allure-results` folder path and run the command `allure serve %path%` to open allure report.
+
 ## Useful commands
 `mvn clean test` - runs the test suite, specified in your pom.xlm file. Make sure to add the 'configuration' tag with specific file, having test suite. Can be run via terminal/shell, IDEA terminal, from the Maven IDEA tab.
 
