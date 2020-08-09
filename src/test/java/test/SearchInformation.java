@@ -1,5 +1,7 @@
 package test;
 
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import utils.RetryAnalyzer;
 import page.PicturesPage;
 import page.SearchPage;
@@ -16,11 +18,15 @@ public class SearchInformation extends TestBase{
 
   SearchPage searchPage;
 
+  @Test(description = "Check the sum of two searches")
+  @Severity(SeverityLevel.BLOCKER)
   public void checkResultsSum(){
     searchPage = new SearchPage(driver);
     searchPage.inputAndSearch("Lub");
   }
 
+  @Test(description = "Compare the number of derived results to 1 000 000 and print the conclusion")
+  @Severity(SeverityLevel.CRITICAL)
   public void checkNumberOfResults(){
     searchPage = new SearchPage(driver);
     int results = searchPage.getNumberOfResults("Lub");
@@ -28,6 +34,8 @@ public class SearchInformation extends TestBase{
     System.out.println("Amount is " + results + ", which is bigger than 1000000 by " + (results - 1000000));
   }
 
+  @Test(description = "Clicking the very first link after the search being made")
+  @Severity(SeverityLevel.BLOCKER)
   public void clickFirstLink(){
     searchPage = new SearchPage(driver);
     searchPage.inputAndSearch("Java patterns");
@@ -36,22 +44,28 @@ public class SearchInformation extends TestBase{
     results.get(0).click();
   }
 
+  @Test(description = "Compare amount of two results and assert that amounts are not equal")
+  @Severity(SeverityLevel.CRITICAL)
   public void compareResults(){
     searchPage = new SearchPage(driver);
     boolean result = searchPage.compareResults("JohnyDepp", "Stallone");
     assertFalse(result,"Results are equal");
   }
 
+  @Test(description = "Compare amount of the same result on two pages")
+  @Severity(SeverityLevel.BLOCKER)
   public void compareResultsOnTwoPages(){
     int index = 2;
     searchPage = new SearchPage(driver);
     int page1Results = searchPage.amountOfLinksOnAPage("Epam").size();
     searchPage.clickPage(index);
     int page2Results = searchPage.amountOfLinksOnAPage().size();
-    assertEquals(page1Results, page2Results, "Amount of result if not equal");
+    assertEquals(page1Results, page2Results, "Amount of results is not equal");
     System.out.println("Amount of results on 1 and " + index + " pages are equal");
   }
 
+  @Test(description = "Search picture of the Cats and print its width")
+  @Severity(SeverityLevel.CRITICAL)
   public void searchPictures(){
     searchPage = new SearchPage(driver);
     PicturesPage picturesPage = new PicturesPage(driver);

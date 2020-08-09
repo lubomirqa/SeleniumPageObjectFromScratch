@@ -14,6 +14,7 @@
         <maven.surefire.version>3.0.0-M5</maven.surefire.version>
         <testng.version>7.0.0</testng.version>
         <log4j.version>2.13.3</log4j.version>
+        <allure-testng.version>2.13.5</allure-testng.version>
     </properties>
     
     <dependencies>
@@ -29,7 +30,6 @@
             <version>${seleniumhq.version}</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j</artifactId>
@@ -42,12 +42,18 @@
             <artifactId>log4j-api</artifactId>
             <version>${log4j.version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
             <version>${log4j.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>${allure-testng.version}</version>
+        </dependency>
     </dependencies>
 
 

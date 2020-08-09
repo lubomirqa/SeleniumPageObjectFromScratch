@@ -35,6 +35,7 @@ public class ChromeDriverManager extends DriverManager{
   void createDriver() {
     ChromeOptions options = new ChromeOptions();
     options.setExperimentalOption("preferences", chromePreferences(getDownloadFolder()));
+    options.addArguments("--lang=en-US");
     driver = new ChromeDriver(chromeService);
   }
 
