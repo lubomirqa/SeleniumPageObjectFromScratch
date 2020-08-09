@@ -39,7 +39,7 @@ Building Selenium test framework using Page Object pattern, Maven, TestNG
 
 ## Allure
 1. Add [Allure TestNG](https://mvnrepository.com/artifact/io.qameta.allure/allure-testng) dependency to `pom.xml`.
-2. Add Allure properties to tests, e.g. Severity, Description.
+2. Add Allure annotations to tests, e.g. @Severity, @Description.
 3. After test run being finished, copy `allure-results` folder path and run the command `allure serve %path%` to open allure report.
 
 ## Useful commands
